@@ -1,0 +1,22 @@
+/*Body Styling*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: .9;
+}
+
+/*Header Styling*/
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+header nav {
+  background-image: url("../images/img-tea-cozy-logo.png");
+  height: 500px;
+}
